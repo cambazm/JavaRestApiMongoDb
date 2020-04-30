@@ -40,7 +40,7 @@ public class AlertController {
     }
 
     @PostMapping(value = "/")
-    public ResponseEntity<?> saveOrUpdateStudent(@RequestBody Alert alert) {
+    public ResponseEntity<?> saveOrUpdateAlert(@RequestBody Alert alert) {
         alertService.saveOrUpdateAlert(alert);
         try {
             return new ResponseEntity("Alert added successfully", HttpStatus.OK);
@@ -53,7 +53,7 @@ public class AlertController {
 
     /* We do not want to delete alerts, it can be done similarly below
     @DeleteMapping(value = "/{id}")
-    public void deleteAlert(@PathVariable Long studentNumber) {
+    public void deleteAlert(@PathVariable String id) {
         //TODO if needed
     }
     */

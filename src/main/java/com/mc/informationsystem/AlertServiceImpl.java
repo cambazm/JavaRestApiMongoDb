@@ -42,8 +42,8 @@ public class AlertServiceImpl implements IAlertService {
 
     /*
     @Override
-    public void deleteStudent(String id) {
-        studentRepository.deleteById(id);
+    public void deleteAlert(String id) {
+        alertRepository.deleteById(id);
     }
     */
 }
