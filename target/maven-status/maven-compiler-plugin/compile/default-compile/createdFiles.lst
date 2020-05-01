@@ -1,8 +1,0 @@
-com\mc\informationsystem\AlertServiceImpl.class
-com\mc\informationsystem\AlertController.class
-com\mc\informationsystem\ServletInitializer.class
-com\mc\informationsystem\AlertRepository.class
-com\mc\informationsystem\IAlertService.class
-com\mc\informationsystem\InformationsystemApplication.class
-com\mc\informationsystem\Alert.class
-com\mc\informationsystem\AlertStatus.class
