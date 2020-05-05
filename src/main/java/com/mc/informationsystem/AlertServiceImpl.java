@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 public class AlertServiceImpl implements IAlertService {
 
     @Autowired
-    private AlertRepository alertRepository;
+    private IAlertRepository alertRepository;
 
     @Override
     public List<Alert> findAll() {
